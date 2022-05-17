@@ -1,6 +1,6 @@
 {
-    "name": "ctf0/media-manager",
-    "description": "A Media Manager Built With Vuejs & Laravel",
+    "name": "ivenms/laravel-media-manager-for-v9",
+    "description": "A Media Manager Built With Vuejs & Laravel FOR V9",
     "homepage": "https://github.com/ctf0/Laravel-Media-Manager",
     "license": "MIT",
     "keywords": [
@@ -15,6 +15,10 @@
         {
             "name": "Muah",
             "email": "muah003@gmail.com"
+        },
+        {
+            "name": "Iven MS",
+            "email": "ivenms@gmail.com"
         }
     ],
     "require": {
