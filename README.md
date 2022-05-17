@@ -23,11 +23,11 @@
 
 ## Installation
 
-- `composer require ctf0/media-manager`
+- `composer require ivenms/laravel-media-manager-for-v9`
 
 - publish the package assets with
 
-    `php artisan vendor:publish --provider="ctf0\MediaManager\MediaManagerServiceProvider"`
+    `php artisan vendor:publish --provider="ivenms\MediaManager\MediaManagerServiceProvider"`
 
 - after installation, run `php artisan lmm:setup` to add
     + package routes to `routes/web.php`
@@ -86,23 +86,23 @@
     + drag & drop anywhere
     + click & hold on an empty area **"items container"**
     + from a url **"images only"**
-- [preview files before uploading](https://github.com/ctf0/Laravel-Media-Manager/wiki/Preview-Files-Before-Uploading)
+- [preview files before uploading](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Preview-Files-Before-Uploading)
 - toggle between `random/original` names for uploaded files
-- [asynchronous Updates](https://github.com/ctf0/Laravel-Media-Manager/wiki/Async-Update-The-Manager)
+- [asynchronous Updates](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Async-Update-The-Manager)
 - bulk selection
 - bookmark visited directories for quicker navigation
 - change item/s visibility
 - update the page url on navigation
 - show audio files info **"artist, album, year, etc.."**
-- dynamically hide [files](https://github.com/ctf0/Laravel-Media-Manager/wiki/Hide-Files-With-Extension) / [folders](https://github.com/ctf0/Laravel-Media-Manager/wiki/Hide-Folders)
-- [restrict access to path](https://github.com/ctf0/Laravel-Media-Manager/wiki/Restrict-Access-To-Path)
-- download selected ["including bulk selection"](https://github.com/ctf0/Laravel-Media-Manager/wiki/Download-Files-as-a-ZipFile)
+- dynamically hide [files](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Hide-Files-With-Extension) / [folders](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Hide-Folders)
+- [restrict access to path](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Restrict-Access-To-Path)
+- download selected ["including bulk selection"](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Download-Files-as-a-ZipFile)
 - directly copy selected file link
 - use the manager
-    + [from modal](https://github.com/ctf0/Laravel-Media-Manager/wiki/Use-The-Manager-From-A-Modal)
-    + [with any wysiwyg editor](https://github.com/ctf0/Laravel-Media-Manager/wiki/Use-The-Manager-With-Any-WYSIWYG-Editor)
+    + [from modal](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Use-The-Manager-From-A-Modal)
+    + [with any wysiwyg editor](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Use-The-Manager-With-Any-WYSIWYG-Editor)
 - auto scroll to selected item using **"left, up, right, down, home, end"**
-- [lock/unlock](https://github.com/ctf0/Laravel-Media-Manager/wiki/Lock-Files-&-Folder) item/s.
+- [lock/unlock](https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Lock-Files-&-Folder) item/s.
 - search in the current directory **or** globally through the entire collection.
 - filter by
     + folder
@@ -204,17 +204,17 @@
 
 [js]: https://github.com/gocanto/vuemit
 [lara]: https://laravel.com/docs/master/events#manually-registering-events
-[event]: https://github.com/ctf0/Laravel-Media-Manager/wiki/Image-Editor#optimize-edited-images-on-save
-[modal]: https://github.com/ctf0/Laravel-Media-Manager/wiki/Use-The-Manager-From-A-Modal
-[showPreview]: https://github.com/ctf0/Laravel-Media-Manager/blob/master/src/config/mediaManager.php#L126
-[customOptions]: https://github.com/ctf0/Laravel-Media-Manager/wiki/Preview-Files-Before-Uploading#-send-custom-options-with-uploaded-files
-[movable]: https://github.com/ctf0/Laravel-Media-Manager/wiki/Movable-List
+[event]: https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Image-Editor#optimize-edited-images-on-save
+[modal]: https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Use-The-Manager-From-A-Modal
+[showPreview]: https://github.com/ivenms/laravel-media-manager-for-v9/blob/master/src/config/mediaManager.php#L126
+[customOptions]: https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Preview-Files-Before-Uploading#-send-custom-options-with-uploaded-files
+[movable]: https://github.com/ivenms/laravel-media-manager-for-v9/wiki/Movable-List
 
 <br>
 
 ## Usage
 
-> [Wiki](https://github.com/ctf0/Laravel-Media-Manager/wiki)<br>
+> [Wiki](https://github.com/ivenms/laravel-media-manager-for-v9/wiki)<br>
 > [Demo](https://github.com/ctf0/demos/tree/media-manager)
 
 - visit `localhost:8000/media`
