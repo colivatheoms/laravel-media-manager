@@ -13,7 +13,7 @@
 
 ## Installation
 
-- `composer require ivenms/laravel-media-manager-for-v9`
+- `composer require ivenms/laravel-media-manager`
 
 - publish the package assets with
 
