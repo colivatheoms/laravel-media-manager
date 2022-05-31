@@ -3,7 +3,6 @@
 namespace ivenms\MediaManager\App\Controllers;
 
 use App\Http\Controllers\Controller;
-use League\Flysystem\Plugin\ListWith;
 use ivenms\MediaManager\App\Controllers\Modules\Lock;
 use ivenms\MediaManager\App\Controllers\Modules\Move;
 use ivenms\MediaManager\App\Controllers\Modules\Utils;
@@ -66,7 +65,6 @@ class MediaController extends Controller
                                     ->connection($config['database_connection'])
                                     ->table($config['table_locked']);
 
-        $this->storageDisk->addPlugin(new ListWith());
     }
 
     /**
