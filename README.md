@@ -1,17 +1,7 @@
 <h1 align="center">
     Laravel Media Manager
-    <br>
-    <a href="https://packagist.org/packages/laravel/laravel"><img src="https://img.shields.io/badge/Laravel-v9+-red" alt="Browser Status"/></a>
-    <a href="https://packagist.org/packages/ctf0/media-manager"><img src="https://img.shields.io/packagist/v/ctf0/media-manager.svg" alt="Latest Stable Version"/></a>
-    <a href="https://packagist.org/packages/ctf0/media-manager"><img src="https://img.shields.io/packagist/dt/ctf0/media-manager.svg" alt="Total Downloads"/></a>
-    <br>
-    <img src="https://badges.herokuapp.com/browsers?firefox=61&amp;microsoftedge=17&amp;googlechrome=51&amp;safari=10&amp;iexplore=!?" alt="Browser Status"/>
 </h1>
-
-<p align="center">
-    <img alt="main" src="https://user-images.githubusercontent.com/7388088/70385131-c0937e80-1993-11ea-9513-cb5c90f4281b.png"/>
-    <img alt="card" src="https://user-images.githubusercontent.com/7388088/75881844-8fa6d680-5e28-11ea-8a38-09bbce94d68e.png"/>
-</p>
+<h3 align="center">Forked from ctf0/MediaManager to support Laravel v9</h3>
 
 - [Installation](#Installation)
 - [Config](#Config)
