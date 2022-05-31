@@ -1,6 +1,6 @@
 import {clear, createStore, del, get, keys, set} from 'idb-keyval'
 
-const store = createStore('ctf0-Media_Manager', 'media_manager')
+const store = createStore('ivenms-Media_Manager', 'media_manager')
 
 onmessage = (e) => {
     let {type, key, val} = e.data

@@ -48,7 +48,7 @@ export default {
     },
     computed: {
         CDBN() {
-            return 'ctf0-Media_Manager'
+            return 'ivenms-Media_Manager'
         }
     }
 }

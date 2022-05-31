@@ -6,7 +6,7 @@ class MediaRoutes
 {
     public static function routes()
     {
-        $controller = conig('mediaManager.controller', '\ivenms\MediaManager\App\Controllers\MediaController');
+        $controller = config('mediaManager.controller', '\ivenms\MediaManager\App\Controllers\MediaController');
 
         app('router')->group([
             'prefix' => 'media',
