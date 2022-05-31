@@ -1,11 +1,11 @@
 <?php
 
-namespace ctf0\MediaManager\App\Controllers\Modules;
+namespace ivenms\MediaManager\App\Controllers\Modules;
 
 use Exception;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use ctf0\MediaManager\App\Events\MediaFileOpsNotifications;
+use ivenms\MediaManager\App\Events\MediaFileOpsNotifications;
 
 trait Move
 {

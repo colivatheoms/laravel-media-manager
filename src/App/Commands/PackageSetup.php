@@ -1,6 +1,6 @@
 <?php
 
-namespace ctf0\MediaManager\App\Commands;
+namespace ivenms\MediaManager\App\Commands;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
@@ -33,7 +33,7 @@ class PackageSetup extends Command
         $search     = 'MediaManager';
 
         if ($this->checkExist($route_file, $search)) {
-            $data = "\n// MediaManager\nctf0\MediaManager\MediaRoutes::routes();";
+            $data = "\n// MediaManager\nivenms\MediaManager\MediaRoutes::routes();";
 
             $this->file->append($route_file, $data);
         }

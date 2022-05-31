@@ -23,7 +23,7 @@
     ],
     "require": {
         "illuminate/support": "^9.14.1",
-        "maennchen/zipstream-php": ">=1.0",
+        "maennchen/zipstream-php": ">=2.0",
         "ctf0/package-changelog": "*"
     },
     "autoload": {

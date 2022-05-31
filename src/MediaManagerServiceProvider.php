@@ -1,11 +1,11 @@
 <?php
 
-namespace ctf0\MediaManager;
+namespace ivenms\MediaManager;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;
-use ctf0\MediaManager\App\Commands\PackageSetup;
-use ctf0\PackageChangeLog\PackageChangeLogServiceProvider;
+use ivenms\MediaManager\App\Commands\PackageSetup;
+use ivenms\PackageChangeLog\PackageChangeLogServiceProvider;
 
 class MediaManagerServiceProvider extends ServiceProvider
 {
