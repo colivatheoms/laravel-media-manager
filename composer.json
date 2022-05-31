@@ -1,7 +1,7 @@
 {
     "name": "ivenms/laravel-media-manager-for-v9",
     "description": "A Media Manager Built With Vuejs & Laravel FOR V9",
-    "homepage": "https://github.com/ctf0/Laravel-Media-Manager",
+    "homepage": "https://github.com/ivenms/laravel-media-manager-for-v9",
     "license": "MIT",
     "keywords": [
         "ctf0",
@@ -22,22 +22,19 @@
         }
     ],
     "require": {
-        "illuminate/support": "^9.0",
+        "illuminate/support": "^9.14.1",
         "maennchen/zipstream-php": ">=1.0",
         "ctf0/package-changelog": "*"
     },
-    "suggest": {
-        "league/flysystem-cached-adapter": "Required to use the Flysystem cache (~1.0)."
-    },
     "autoload": {
         "psr-4": {
-            "ctf0\\MediaManager\\": "src"
+            "ivenms\\MediaManager\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ctf0\\MediaManager\\MediaManagerServiceProvider"
+                "ivenms\\MediaManager\\MediaManagerServiceProvider"
             ]
         },
         "changeLog": "logs"
@@ -47,13 +44,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "@php artisan vendor:publish --provider=\"ctf0\\MediaManager\\MediaManagerServiceProvider\""
+            "@php artisan vendor:publish --provider=\"ivenms\\MediaManager\\MediaManagerServiceProvider\""
         ]
-    },
-    "funding": [
-        {
-            "type": "patreon",
-            "url": "https://www.patreon.com/ctf0"
-        }
-    ]
+    }
 }
