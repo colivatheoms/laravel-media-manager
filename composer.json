@@ -9,7 +9,10 @@
         "manager",
         "laravel",
         "gui",
-        "MediaManager"
+        "MediaManager",
+        "laravel9",
+        "laravel 9",
+        "php8"
     ],
     "authors": [
         {
