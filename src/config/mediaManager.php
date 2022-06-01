@@ -124,5 +124,5 @@ return [
     /*
      * loaded chunk amount "pagination"
      */
-    'pagination_amount' => 50,
+    'pagination_amount' => 500,
 ];
