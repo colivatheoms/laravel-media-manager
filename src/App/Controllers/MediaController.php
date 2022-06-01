@@ -3,6 +3,7 @@
 namespace ivenms\MediaManager\App\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 use ivenms\MediaManager\App\Controllers\Modules\Lock;
 use ivenms\MediaManager\App\Controllers\Modules\Move;
 use ivenms\MediaManager\App\Controllers\Modules\Utils;
@@ -58,7 +59,7 @@ class MediaController extends Controller
         $this->GFI              = $config['get_folder_info']   ?? true;
         $this->paginationAmount = $config['pagination_amount'] ?? 50;
 
-        $this->storageDisk     = app('filesystem')->disk($this->fileSystem);
+        $this->storageDisk     = Storage::disk($this->fileSystem);
         $this->storageDiskInfo = app('config')->get("filesystems.disks.{$this->fileSystem}");
         $this->baseUrl         = $this->storageDisk->url('/');
         $this->db              = app('db')
