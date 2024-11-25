@@ -1,7 +1,7 @@
 <h1 align="center">
     Laravel Media Manager
 </h1>
-<h3 align="center">Forked from ctf0/MediaManager to support Laravel v9</h3>
+<h3 align="center">Forked from ctf0/MediaManager to support Laravel v9, v10 and v11</h3>
 
 - [Installation](#Installation)
 - [Config](#Config)
@@ -10,6 +10,12 @@
 - [Usage](#Usage)
 
 <br>
+## Version Support for Laravel versions
+
+* 4.0.0 - Laravel 9
+* 4.0.1 - Laravel 10
+* 4.0.2 - Laravel 11
+
 
 ## Installation
 
