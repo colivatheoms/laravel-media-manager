@@ -28,7 +28,7 @@
         "illuminate/support": "^11.0",
         "league/flysystem": "^3.0",
         "maennchen/zipstream-php": ">=2.0",
-        "ivenms/package-changelog": "0.0.3"
+        "ivenms/package-changelog": "0.0.4"
     },
     "autoload": {
         "psr-4": {
