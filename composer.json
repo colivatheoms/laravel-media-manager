@@ -1,8 +1,7 @@
 {
-    "name": "ivenms/laravel-media-manager",
-    "description": "A Media Manager Built With Vuejs & Laravel FOR V9",
-    "homepage": "https://github.com/ivenms/laravel-media-manager",
-    "license": "MIT",
+"name": "colivatheoms/laravel-media-manager",
+    "type": "library",
+
     "keywords": [
         "ctf0",
         "media",
