@@ -99,6 +99,9 @@ trait GetContent
         return $this->storageDisk->listContents($folder)->map(function ($attributes) {
             $path = $attributes->path();
             $name = substr($path, strrpos($path, '/') + 1);
+            
+            $name = basename($path);
+            
             $extention = substr($name, strrpos($name, '.') + 1);
             return [
                 'path' => $path,
